@@ -1,0 +1,339 @@
+ * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+      }
+
+      body {
+        width: 100%;
+        height: 600vh;
+      }
+
+      nav {
+        padding: 15px;
+        background-color: azure;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        object-fit: cover;
+        z-index: 1;
+        position: fixed;
+        width: 100%;
+      }
+      .main {
+        display: flex;
+        gap: 20px;
+      }
+      .main2 {
+        display: flex;
+        gap: 7.5px;
+      }
+      .main1 {
+        font-size: 25px;
+        font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS",
+          sans-serif;
+      }
+      .BOX1 video {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+        position: relative;
+        opacity: 0.8;
+      }
+      .setting span {
+        font-size: 150px;
+        color: rgba(10, 10, 10, 0.851);
+      }
+      .setting p {
+        font-size: 25px;
+      }
+      .setting {
+        position: absolute;
+        top: 650px;
+        text-align: center;
+      }
+      button {
+        margin: 25px;
+        font-size: 20px;
+        border: black solid 3px;
+        padding: 10px;
+      }
+      button:hover {
+        background-color: rgba(0, 0, 0, 0.342);
+        color: aliceblue;
+      }
+      .display {
+        display: flex;
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+        top: 0;
+      }
+      .display img {
+        object-fit: cover;
+        width: 100%;
+        height: 500px;
+      }
+      .text {
+        text-align: center;
+        flex-direction: column;
+        display: flex;
+        margin-top: 50px;
+        gap: 10px;
+        font-size: 20px;
+        
+      }
+      .text span {
+        font-size: 20px;
+      }
+      .text h1 {
+        font-size: 100px;
+      }
+      h3 {
+        font-size: 30px;
+      }
+      .image {
+        display: flex;
+        gap: 10px;
+      }
+
+      .image-sub img {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+      }
+      .text1 h2 {
+        margin-top: 9px;
+        font-size: 25px;
+      }
+      .text1 {
+        margin-top: 0px;
+        font-size: 25px;
+      }
+
+      .image1 {
+        width: 100%;
+        height: 700px;
+        object-fit: cover;
+      
+        overflow: hidden;
+      }
+
+      .image1 img:hover {
+        transform: scale(1.2);
+        transition: all 1s;
+      }
+
+      .text1 h2 {
+        margin-top: 9px;
+        font-size: 25px;
+      }
+      .text1 span {
+        font-size: 18px;
+        margin: 0%;
+      }
+
+      .heading p{
+        font-size: 25px;
+        text-align: center;
+        margin: 20px;
+      }
+      .photo{
+        font-size: 35px;
+        text-align: center;
+      }
+      .container{
+        display: flex;
+        object-fit: cover;
+        margin-top: 50px;
+         padding: 0 1% 0 1%;
+      }
+      .watch {
+        width: 100%;
+        height: 700px;
+        display: flex;
+      }
+      .watch img{
+        width: 200%;
+        height: 700px;
+        object-fit: cover;
+        display: flex;
+      }
+      .block{
+        display: flex;
+        padding: 0 1% 0 1%;
+        margin-top: 0%;
+        width: 100%;
+        height:600px;
+        object-fit: cover;
+        
+
+      }
+      .block-sub{
+        height:100%;
+        width: 100%;
+        background-color:rgba(255, 255, 255, 0.456);
+       
+      }
+      .block-sub p{
+        margin-top: 10%;
+        margin-left: 58px;
+        font-size: 35px;
+        line-height: 2cm;
+       }
+       .block-sub span{
+        margin-top: 2%;
+        margin-left: 6%;
+        font-size: 20px;
+        line-height: 0.8cm;
+
+       }
+      .block-subcontainer{
+        height:100%;
+        width: 100%;
+        background-color:rgba(0, 0, 0, 0.268);
+       }
+       .block-subcontainer p{
+        margin-top: 35%;
+        margin-left: 120px;
+        font-size: 30px;
+       }
+       .block-subcontainer span{
+        line-height: 3cm;
+        margin-left: 120px;
+        font-size: 30px;
+       }
+       .video{
+        position: relative;
+        width:100%;
+        display: flex;
+       }
+       .video video{
+        width: 100%;
+        height: 800px;
+        object-fit: cover;
+        padding: 0% 2% 0% 2%;
+        position: relative;
+        
+       }
+       .video-text{
+        position: absolute;
+        width: 100%;
+       }
+       .video-form{
+        width: 100%;
+        position:absolute;
+        height: 200px;
+      }
+
+      .video-form button{
+        margin-top: 36%;
+        margin-left: -10cm;
+      }
+      .video-sub-text p{
+        width: 100%;
+        text-align: center;
+        margin-top: 3%;
+        font-size: 50px;
+        line-height: 4cm;
+        position: absolute;
+       
+      }
+      .label1{
+        display: inline;
+        float: left;
+        margin-top: 5cm;
+        margin-left: 18cm;
+        font-size: 25px ;
+      
+
+      }
+      .label1 hr{
+        width: 6.5cm;
+       margin-top:1.5cm;
+         
+      }
+      .label2{
+        
+        float: left;
+        margin-top: 5cm;
+        margin-left: 2cm;
+        font-size: 25px ;
+        
+
+      }
+      .label2 hr{
+        width: 6.5cm;
+       margin-top: 1.5cm;
+         
+      }
+      .label3{
+        float: left;
+        margin-top: 1cm;
+        margin-left: 18cm;      
+        font-size: 25px ;
+      }
+      .label3 .msg{
+        position: relative;
+        top: 20px;
+      }
+      .label3 hr{
+        width: 18cm;
+       margin-top: 1.5cm;
+      }
+      
+      
+      .foot{
+        background-color: black;
+        height: 600px;  
+        color:white;
+      }
+
+      .foot-text-main{
+        display: flex;
+      }
+
+      .foot-text{
+        color:white;
+        font-size: 45px;
+         display: inline;
+      }
+
+      .foot-text p{
+       margin-top: 2cm;
+       margin-left: 12;
+  
+      }
+
+      .foot-sub{
+        margin-top: 2cm;
+        margin-left: 25cm;
+        font-size: 20px;
+      }
+
+      .foot-sub2{
+        margin-top: 1cm;
+      }
+
+      .foot-sub3{
+        margin-top: 6%;
+      }
+
+      .foot-sub4{
+       margin-left: 10cm;
+      margin-top: 2cm;
+      font-size: 20px;
+      }
+ 
+      .foot-sub4 ul{
+        list-style: none;
+      }
+
+      .foot-sub5{
+        margin-top: 3cm;
+      }
+
+      .foot-sub6{
+        margin-top: 1%;
+        margin-left: 1cm;
+      }
